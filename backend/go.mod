@@ -1,13 +1,15 @@
 module github.com/B-Urb/KubeVoyage
 
-go 1.21
+go 1.23
+
+toolchain go1.23.1
 
 require (
 	github.com/golang-jwt/jwt/v5 v5.2.1
-	github.com/gorilla/sessions v1.3.0
+	github.com/gorilla/sessions v1.4.0
 	github.com/rs/cors v1.11.1
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/crypto v0.25.0
+	golang.org/x/crypto v0.27.0
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/driver/postgres v1.5.9
 	gorm.io/driver/sqlite v1.5.6
@@ -28,7 +30,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
